@@ -10,7 +10,7 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 # Running the software
 
 * First of all, create db file with ```node sql.js``` . Useful command to restart and re-create the SQLite DB.
-* ```node app.js``` for running the server.
+* ```node app.js``` for running the server and listen to requests.
 
 # API Endpoints
 
