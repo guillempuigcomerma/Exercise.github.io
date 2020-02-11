@@ -2,6 +2,18 @@
 
 This is a minimal api rest for NodeJS. This project includes inserting and encrypting a message and retrieving all history data in the SQLite DB!
 
+# Features
+
+* Nodejs
+* SQLite
+* Express
+* REST API
+
+## Requirements
+
+* [node & npm](https://nodejs.org/)
+* [git](https://www.robinwieruch.de/git-essential-commands/)
+
 # Installation
 
 * Clone the repo by using ```git clone```.
