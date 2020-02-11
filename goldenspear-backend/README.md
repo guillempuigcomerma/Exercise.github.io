@@ -32,9 +32,9 @@ POST http://localhost:4001/process      =>  Encrypt the message via call caesarE
                                             encrypted message and store result to DB
 ```
 
-#File description
+# File description
 
-* caesarEncrypt.py: python file where Caesar Encryption with lower case alphabet is applied.
-* crc8.js: javascript file to calculate crc-8 checksum need in caesarEncryption.py as the shift value.
-* sql.js: ensures no Encryption table already exists and creates a new one
-* app.js: server file
+* **caesarEncrypt.py**: python file where Caesar Encryption with lower case alphabet is applied.
+* **crc8.js**: javascript file to calculate crc-8 checksum need in caesarEncryption.py as the shift value.
+* **sql.js**: ensures no Encryption table already exists and creates a new one
+* **app.js**: server file
