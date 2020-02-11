@@ -1,3 +1,9 @@
+# React App
+
+## Description
+
+This is an  application to encrypt messages in React using Caesar encryption algorithm.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts 
