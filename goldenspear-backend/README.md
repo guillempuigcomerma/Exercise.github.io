@@ -15,6 +15,6 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 # API Endpoints
 
 ```
-GET http://localhost:3000/history
-POST http://localhost:3000/process
+GET http://localhost:3000/history       =>  retrieve all db results
+POST http://localhost:3000/process      =>  Encrypt the message via call to Python script ([caesarEncryption.py](https://github.com/guillempuigcomerma/Exercise.github.io/blob/master/goldenspear-backend/caesarEncrypt.py)), display encrypted word and store result to DB
 ```
