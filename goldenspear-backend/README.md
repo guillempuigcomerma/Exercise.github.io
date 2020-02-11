@@ -19,7 +19,7 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 * Clone the repo by using ```git clone```.
 * Run ```npm install``` on the cloned directory.
 
-# Running the software
+# Running the software :arrow_forward:
 
 * First of all, create db file with ```node sql.js``` . Useful command to restart and re-create the SQLite DB.
 * ```node app.js``` for running the server and listen to requests.
