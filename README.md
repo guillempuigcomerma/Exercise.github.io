@@ -10,7 +10,9 @@ This github repo is a full-stack web application, with both front-end and back-e
  ## Deploy front-end
     
     $ cd goldenspear-frontend
+    $ see goldenspear-frontend folder
  
  ## Deploy back-end
  
      $ cd goldenspear-backend
+     $ see goldenspear-backend folder
