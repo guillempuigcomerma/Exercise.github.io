@@ -16,6 +16,6 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 
 ```
 GET http://localhost:4001/history       =>  retrieve all db results
-POST http://localhost:4001/process      =>  Encrypt the message via call to Python script (caesarEncryption.py), display
+POST http://localhost:4001/process      =>  Encrypt the message via call caesarEncryption.py, display
                                             encrypted message and store result to DB
 ```
