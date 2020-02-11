@@ -32,5 +32,5 @@ This application uses a NodeJS api to make requests for retrieving history data 
 
 **General functionality:**
 
-- Encrypt messages using **Encrypt"** button
+- Encrypt messages using **Encrypt** button
 - Retrieve all history data using **Show results** button
