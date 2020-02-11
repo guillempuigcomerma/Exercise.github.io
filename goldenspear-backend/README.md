@@ -11,7 +11,6 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 
 * First of all, create db file with ```node sql.js``` . Useful command to restart and re-create the SQLite DB.
 * ```node app.js``` for simple setups.
-* I would recommend looking at [the pm2 module](https://www.npmjs.com/package/pm2) for running on a production server.
 
 # API Endpoints
 
