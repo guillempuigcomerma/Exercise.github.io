@@ -16,7 +16,6 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 
 # Installation :wrench:
 
-* Clone the repo by using ```git clone```.
 * Run ```npm install``` on the cloned directory.
 
 # Running the software :arrow_forward:
