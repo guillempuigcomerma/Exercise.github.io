@@ -4,7 +4,7 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 
 # Features
 
-* Nodejs
+* NodeJS
 * SQLite
 * Express
 * REST API
