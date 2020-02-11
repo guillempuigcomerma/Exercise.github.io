@@ -28,14 +28,9 @@ The code for the backend server (available for Node) can be found in the [NodeJS
 
 ## Functionality overview
 
-The example application is a social blogging site (i.e. a Medium.com clone) called "Conduit". It uses a custom API for all requests, including authentication. You can view a live demo over at https://redux.productionready.io/
+This application uses a NodeJS api to make requests for retrieving history data from a DataBase and to encrypt messages.
 
 **General functionality:**
 
-- Authenticate users via JWT (login/signup pages + logout button on settings page)
-- CRU* users (sign up & settings page - no deleting required)
-- CRUD Articles
-- CR*D Comments on articles (no updating required)
-- GET and display paginated lists of articles
-- Favorite articles
-- Follow other users
+- Encrypt messages using **Encrypt"** button
+- Retrieve all history data using **Show results** button
