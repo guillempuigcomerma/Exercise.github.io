@@ -1,4 +1,4 @@
-# ![React + Redux Example App](project-logo.png) React App
+# ![React ](./react-logo.png) React App
 
 ## Description
 
