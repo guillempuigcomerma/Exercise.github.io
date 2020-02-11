@@ -1,4 +1,4 @@
-# ![React ](./react-logo.png) React App
+# ![React app](./reaact-logo.png)
 
 ## Description
 
