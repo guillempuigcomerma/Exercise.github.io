@@ -19,13 +19,11 @@ Installs all needed dependencies.
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Making requests to the backend API
+## Making requests to the backend API
 
-For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/api) which contains all routes & responses for the server.
+API server running at 'http://localhost:4001' for the application to make requests against. 
 
-The source code for the backend server (available for Node, Rails and Django) can be found in the [main RealWorld repo](https://github.com/gothinkster/realworld).
-
-If you want to change the API URL to a local server, simply edit `src/agent.js` and change `API_ROOT` to the local server's URL (i.e. `http://localhost:3000/api`)
+The code for the backend server (available for Node) can be found in the [NodeJS api rest](https://github.com/guillempuigcomerma/Exercise.github.io/tree/master/goldenspear-backend).
 
 
 ## Functionality overview
