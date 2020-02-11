@@ -9,7 +9,7 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 * Express
 * REST API
 
-## Requirements
+# Requirements
 
 * [node & npm](https://nodejs.org/)
 * [git](https://www.robinwieruch.de/git-essential-commands/)
@@ -31,3 +31,10 @@ GET http://localhost:4001/history       =>  retrieve all db results
 POST http://localhost:4001/process      =>  Encrypt the message via call caesarEncryption.py, display
                                             encrypted message and store result to DB
 ```
+
+#File description
+
+* caesarEncrypt.py: python file where Caesar Encryption with lower case alphabet is applied.
+* crc8.js: javascript file to calculate crc-8 checksum need in caesarEncryption.py as the shift value.
+* sql.js: ensures no Encryption table already exists and creates a new one
+* app.js: server file
