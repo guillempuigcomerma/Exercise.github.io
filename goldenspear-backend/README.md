@@ -14,7 +14,7 @@ This is a minimal api rest for NodeJS. This project includes inserting and encry
 * [node & npm](https://nodejs.org/)
 * [git](https://www.robinwieruch.de/git-essential-commands/)
 
-# Installation
+# Installation :wrench:
 
 * Clone the repo by using ```git clone```.
 * Run ```npm install``` on the cloned directory.
@@ -32,7 +32,7 @@ POST http://localhost:4001/process      =>  Encrypt the message via call caesarE
                                             encrypted message and store result to DB
 ```
 
-# File description
+# File description :page_with_curl:
 
 * **caesarEncrypt.py**: python file where Caesar Encryption with lower case alphabet is applied.
 * **crc8.js**: javascript file to calculate crc-8 checksum need in caesarEncryption.py as the shift value.
