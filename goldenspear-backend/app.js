@@ -45,7 +45,7 @@ app.post('/process', (req, res, next) => {
     } else {
       shift = row.suma;
     }
-    const caesarEncrypt = spawn('python',["./caesarEncrypt.py",message,shift]);
+    const caesarEncrypt = spawn('python3',["./caesarEncrypt.py",message,shift]);
     caesarEncrypt.stdout.on('data', (data) => {
       encrypted_msg += data.toString();
       db.run(`INSERT INTO Encryption (original_msg, encrypted_msg, original_msg_crc)
